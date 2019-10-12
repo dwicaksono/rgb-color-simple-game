@@ -24,7 +24,8 @@ body {
   color: white;
   font-size: 20px;
   display: inline-block;
-  width: 30%;
+  width: 20%;
+  text-transform: uppercase;
 }
 #linehead {
   background-color: #7f8c8d;
@@ -38,7 +39,7 @@ h1 {
   text-align: center;
   font-size: 30px;
   letter-spacing: 5px;
-  padding: 20px 0;
+  padding: 10px 0;
   line-height: 35px;
 }
 #diplay-colors {
@@ -52,6 +53,7 @@ h1 {
   color: white;
   height: 100%;
   padding: 0 10px;
+  transition: all 0.3s;
 }
 button {
   border: none;
@@ -59,10 +61,16 @@ button {
   font-size: 20px;
   margin: 0 10px;
   color: white;
+  text-transform: uppercase;
+  outline: none;
 }
 button:hover {
   background: #3498db;
   color: white;
   padding: 0 10px;
   height: 100%;
+  transition: all 0.3s;
+}
+.square {
+  transition: background 0.5s;
 }

@@ -49,6 +49,7 @@ reset.addEventListener("click", function() {
     squares[i].style.background = colors[i];
   }
   h1.style.background = "#34495e";
+  this.textContent = "New Game";
 });
 
 for (var i = 0; i < squares.length; i++) {
